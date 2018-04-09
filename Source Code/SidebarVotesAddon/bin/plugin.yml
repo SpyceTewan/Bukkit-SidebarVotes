@@ -1,0 +1,4 @@
+name: SidebarVotes Example Addon
+author: Tewan
+version: 1.0
+main: at.tewan.plugins.vote.addon.Main

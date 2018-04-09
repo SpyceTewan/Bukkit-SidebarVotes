@@ -1,0 +1,46 @@
+{
+	"text": "", 
+	"extra": [
+		{
+			"text": "Yes", 
+			"color": "green", 
+			"clickEvent": {
+				"action": "run_command", 
+				"value": "/vote-yes"
+			}
+		}, 
+		{
+			"text": "    "
+		}, 
+		{
+			"text": "No", 
+			"color": "red", 
+			"clickEvent": {
+				"action": "run_command", 
+				"value": "/vote-no"
+			}
+		}
+	]
+}
+
+{
+	"text": "",
+	"extra": [
+		{
+			"text": "%name: ",
+			"color": "%color1",
+			"clickEvent": {
+				"action": "suggest_command",
+				"value": "/vote-create %name"
+			},
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "%hover"
+			}
+		},
+		{
+			"text": "%description",
+			"color": "%color2"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+name: SidebarVotes
+author: Tewan
+version: 1.0
+main: at.tewan.plugins.vote.Main
+commands:
+     vote-create:
+          description: Let's you create a vote.
+          usage: /vote-create <name>
+          aliases: [v-c]
+     vote-list:
+          description: Shows you the list of all possible vote applications
+          usage: /vote-list
+     vote-info:
+          description: Shows you the info of a vote application
+          usage: /vote-info <name>
+     vote-yes:
+          description: Upvotes the current vote
+          usage: /vote-yes
+     vote-no:
+          description: Downvotes the current vote
+          usage: /vote-no
+     vote-pass:
+          description: Admin command! Passes the vote
+          usage: /vote-pass
+          permission: vote.admin
+     vote-deny:
+          description: Admin command! Denies the vote
+          usage: /vote-pass
+          permission: vote.admin
+     vote-watchdog:
+          description: Admin command! Shows you everything happening with votes
+          usage: /vote-watchdog <enable|disable>
+          permission: vote.admin

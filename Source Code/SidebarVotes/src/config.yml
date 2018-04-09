@@ -1,0 +1,40 @@
+appearance:
+  color:
+    primary: '§4'
+    secondary: '§c'
+    positive: '§a'
+    negative: '§c'
+    text: '§7'
+  label:
+    prefix: '['
+    name: 'SidebarVotes'
+    suffix: ']'
+settings:
+  vote:
+    time: 300
+  load-default-applications: true
+lang:
+  no-permission: 'You are not allowed to execute this command'
+  already-voted: 'You already voted!'
+  vote-in-progress: 'There already is a vote in progress'
+  no-vote: 'There is currently no vote in progress'
+  string-yes: 'Yes'
+  string-no: 'No'
+  you-voted: 'You voted: '
+  you-started-the-vote: 'You started the vote: %votename'
+  person-voted: '%voteorigin voted: %votedescription'
+  do-you-accept: 'Do you want to accept the vote?'
+  vote-failed:  'Vote failed! Not enough Players voted.'
+  vote-accepted: 'Vote accepted!'
+  vote-doesnt-exist: 'This vote does not exist. /votes for help'
+  vote-list-hint: '/vote-create <name> or click in chat'
+  sidebar-title: 'Voting in progress'
+  sidebar-votes: 'Votes: '
+  sidebar-time: 'Time: '
+  sidebar-name: 'Name: '
+  sidebar-description: ''
+  info-title: 'Info for: '
+  info-name: 'Name: '
+  info-description: 'Description: '
+  info-info: 'Info: '
+  info-hover: 'Click me!'
